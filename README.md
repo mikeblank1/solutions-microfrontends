@@ -3,7 +3,7 @@ name: Microfrontends
 slug: microfrontends
 description: Microfrontends allow teams to work independently of each other by splitting the application into smaller, shareable, and modular components.
 framework: Next.js
-useCase: Monorepo
+useCase: Monorepos
 css: Tailwind
 deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/microfrontends&project-name=microfrontends&repository-name=microfrontends&root-directory=apps/main&install-command=pnpm%20install&build-command=cd%20..%2F..%20%26%26%20pnpm%20build%3Amain&ignore-command=npx%20turbo-ignore
 demoUrl: https://solutions-microfrontends.vercel.app
