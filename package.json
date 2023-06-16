@@ -1,5 +1,5 @@
 {
-  "repository": "https://github.com/vercel/examples.git",
+  "repository": "https://github.com/mikeblank1/solutions-microfrontends.git",
   "license": "MIT",
   "private": true,
   "workspaces": [
