@@ -23,8 +23,9 @@ jobs:
 
       - name: npm install, build, and test
         run: |
+          ENV PNPM_HOME="/root/.local/share/pnpm"
+          ENV PATH="${PATH}:${PNPM_HOME}"
           npm install -g pnpm
-          pnpm setup
           pnpm install turbo --global
           turbo run build
           turbo run start
