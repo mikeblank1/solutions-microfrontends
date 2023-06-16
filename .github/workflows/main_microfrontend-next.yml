@@ -26,8 +26,8 @@ jobs:
       - name: npm install, build, and test
         run: |
           pnpm install
-          turbo run build
-          turbo run start
+          pnpm build
+          pnpm start
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
