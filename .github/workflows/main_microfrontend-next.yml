@@ -23,7 +23,7 @@ jobs:
 
       - name: npm install, build, and test
         run: |
-          export PNPM_HOME="/root/.local/share/pnpm"
+          export PNPM_HOME="/root/.local/share/pnpm/store"
           export PATH="${PATH}:${PNPM_HOME}"
           npm install -g pnpm
           pnpm install turbo --global
