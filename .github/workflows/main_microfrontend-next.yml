@@ -24,6 +24,7 @@ jobs:
       - name: npm install, build, and test
         run: |
           npm install -g pnpm
+          PATH=$PATH:/root/.local/share/pnpm/store
           pnpm install turbo --global
           turbo run build
           turbo run start
