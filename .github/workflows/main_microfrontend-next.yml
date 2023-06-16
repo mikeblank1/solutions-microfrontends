@@ -25,6 +25,7 @@ jobs:
 
       - name: npm install, build, and test
         run: |
+          pnpm install
           turbo run build
           turbo run start
 
